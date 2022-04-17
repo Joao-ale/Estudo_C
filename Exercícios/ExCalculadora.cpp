@@ -7,7 +7,7 @@ int main(){
 	printf("Digite o primeiro numero:\n");
 	scanf("%f",&n1);
 	printf("\nDigite o operador:\n");
-	scanf("%c",&op);
+	scanf("%s",&op);
 	printf("\nDigite o segundo numero:\n ");
 	scanf("%f",&n2);
 	
