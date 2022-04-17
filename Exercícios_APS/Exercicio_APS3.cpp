@@ -25,7 +25,7 @@ int main(){
     else if (salario >= 1200.01 && salario <= 2000.00){
         reajuste = salario*0.07;
         novoSalario = salario + reajuste;
-        printf(" O funcionario tera um aumento de 7 porcento com o reajuste de R$%.2f, tendo um novo salario de R$%.2f",reajuste,novoSalario)
+        printf(" O funcionario tera um aumento de 7 porcento com o reajuste de R$%.2f, tendo um novo salario de R$%.2f",reajuste,novoSalario);
     }
     else if(salario>2000.00){
         reajuste = salario*0.04;
