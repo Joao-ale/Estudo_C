@@ -14,7 +14,6 @@ int main(){
         scanf("%f",&raio);
         areaCilindro = 3.141592 * raio * raio * altura;
         printf("A area do cilindro do aluno %d, e de %.2f\n", i,areaCilindro); 
-        printf("-"*50);
     }
 
 
