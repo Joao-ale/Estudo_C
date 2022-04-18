@@ -1,4 +1,4 @@
-# Estudo_C
+# Estudo da linguagem C
 ## Quem sou eu
 Eu me chamo João Alexandre, tenho 17 anos e sou estudante de ciência da computação na FMU
 
