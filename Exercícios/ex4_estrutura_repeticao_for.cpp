@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-int alunos, i;
-float altura, raio, areaCilindro;
+int alunos, i, maiorAluno;
+float altura, raio, volumeCilindro, maiorVolume = 0;
 
 int main(){
     printf("Quantos alunos tem na sala? ");
@@ -12,8 +12,13 @@ int main(){
         scanf("%f",&altura);
         printf("Qual o raio do cilindro: ");
         scanf("%f",&raio);
-        areaCilindro = 3.141592 * raio * raio * altura;
-        printf("A area do cilindro do aluno %d, e de %.2f\n", i,areaCilindro); 
+        volumeCilindro = 3.141592 * raio * raio * altura;
+        printf("A volume do cilindro do aluno %d e de %.2f\n", i, volumeCilindro); 
+        if (volumeCilindro > maiorVolume){
+            maiorVolume = volumeCilindro;
+            maiorAluno = i;
+        }
     }
+    printf("O maior volume e do aluno %d com um cilindro de volume %.2f", maiorAluno, maiorVolume);
     return 0;
 }
