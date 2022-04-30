@@ -21,7 +21,7 @@ int main(){
         else if (media >= 0 && media < 3){
             reprov++;
         }
-        printf("\nProximo aluno")
+        printf("\nProximo aluno");
     }
     printf("%d alunos foram aprovados\n", aprov);
     printf("%d alunos foram para exame\n", exame);
